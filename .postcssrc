@@ -1,0 +1,12 @@
+{
+  "plugins": {
+    "autoprefixer": {
+      "grid": true,
+      "overrideBrowserslist": "last 2 versions"
+    },
+    "postcss-combine-media-query": {},
+    "postcss-combine-duplicated-selectors": {
+      "removeDuplicatedValues": true
+    }
+  }
+}
