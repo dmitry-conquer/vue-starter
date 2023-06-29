@@ -1,6 +1,6 @@
 <template>
 
-  <RouterView />
+  <!-- <RouterView /> -->
 
 </template>
 

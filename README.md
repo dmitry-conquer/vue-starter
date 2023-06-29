@@ -1,4 +1,4 @@
-# Vue Starter
+# Conqur Chat 'Beta'
 
 ## Customize configuration
 
