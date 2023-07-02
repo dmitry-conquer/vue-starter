@@ -1,0 +1,25 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 8px;
+  font-weight: 500;
+  &_primary {
+    background-color: var(--primary-color);
+  }
+  &_secondary {
+    background-color: var(--primary-light-color);
+  }
+  &_lg {
+    padding: 20px 40px;
+    font-size: 18px;
+  }
+  &_md {
+    padding: 12px 18px;
+    font-size: 16px;
+  }
+  &_sm {
+    padding: 7px 10px;
+  }
+}

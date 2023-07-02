@@ -1,13 +1,21 @@
-/* Default */
+/* Default/Dark */
 :root {
-  --color-primary: #000;
-  --color-secondary: #000;
-  --color-tertiary: #000;
+  --primary-color: #0d6cbd;
+  --primary-light-color: #53a0ff;
+  --bg-interface-color: #21262b;
+  --bg-interface-light-color: #353c43;
+  --bg-chat-color: #181c20;
+  --message-color: #4a545c;
+  --message-self-color: #4b86ce;
+  --label-color: #8fa0af;
+  --text-color: #eef1f4;
+  --text-muted-color: #abbbc9;
+  --dark-border: #4a545c;
 }
 
 /* Dark / Light */
-:root.dark {
-  --color-primary: #000;
-  --color-secondary: #000;
-  --color-tertiary: #000;
-}
+// :root.dark {
+//   --color-primary: #000;
+//   --color-secondary: #000;
+//   --color-tertiary: #000;
+// }

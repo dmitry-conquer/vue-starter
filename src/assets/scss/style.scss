@@ -1,26 +1,13 @@
-@import "fonts", "normalize", "variables";
+@import "fonts", "normalize", "variables", "themes", "UI/buttons", "UI/forms";
 
 html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Satoshi", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
-}
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  min-height: 100%;
-  main {
-    flex: 1 1 auto;
-  }
-}
-[class*="__container"] {
-  margin: 0 auto;
-  padding: 0 $container-padding + px;
-  max-width: $container-max-width + px;
+  color: var(--text-color);
 }
 
 ._imw {
@@ -33,4 +20,17 @@ body {
 }
 .visually-hidden {
   @include visually-hidden;
+}
+
+.base-icon {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
